@@ -1,0 +1,11 @@
+
+<suite name="Suite1" verbose="1" >
+
+    <test name="test_Home_Page_Appear_Correct" >
+
+    </test>
+
+    <test name="test2">
+
+    </test>
+</suite>
