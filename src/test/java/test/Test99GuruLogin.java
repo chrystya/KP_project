@@ -23,8 +23,7 @@ public class Test99GuruLogin {
 
     public void setup() {
 
-
-        System.setProperty("webdriver.chrome.driver", "/Users/kp/Selenium/chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "/Users/kp/Selenium/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://demo.guru99.com/V4/");
@@ -66,6 +65,10 @@ public class Test99GuruLogin {
         //Verify home page
 
         Assert.assertTrue(objHomePage.getHomePageDashboardUserName().toLowerCase().contains("manger id : mgr123"));
+
+        //Click new customer
+
+        objLogin.clickNewCustomeBtn();
 
     }
 }

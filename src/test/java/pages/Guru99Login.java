@@ -12,13 +12,14 @@ public class Guru99Login {
 
     By password99Guru = By.name("password");
 
-    By titleText =By.className("barone");
+    By titleText = By.className("barone");
 
     By login = By.name("btnLogin");
 
+    By newCustomer = By.cssSelector(".menusubnav>li>a[href='addcustomerpage.php']");
 
 
-    public Guru99Login(WebDriver driver){
+    public Guru99Login(WebDriver driver) {
 
         this.driver = driver;
 
@@ -26,55 +27,48 @@ public class Guru99Login {
 
     //Set user name in textbox
 
-    public void setUserName(String strUserName){
+    public void setUserName(String strUserName) {
 
         driver.findElement(user99GuruName).sendKeys(strUserName);
 
     }
 
 
-
     //Set password in password textbox
 
-    public void setPassword(String strPassword){
+    public void setPassword(String strPassword) {
 
         driver.findElement(password99Guru).sendKeys(strPassword);
 
     }
 
 
-
     //Click on login button
 
-    public void clickLogin(){
+    public void clickLogin() {
 
         driver.findElement(login).click();
 
     }
 
 
-
     //Get the title of Login Page
 
-    public String getLoginTitle(){
+    public String getLoginTitle() {
 
-        return    driver.findElement(titleText).getText();
+        return driver.findElement(titleText).getText();
 
     }
 
     /**
-
      * This POM method will be exposed in test case to login in the application
-
+     *
      * @param strUserName
-
      * @param strPasword
-
      * @return
-
      */
 
-    public void loginToGuru99(String strUserName,String strPasword){
+    public void loginToGuru99(String strUserName, String strPasword) {
 
         //Fill user name
 
@@ -89,7 +83,18 @@ public class Guru99Login {
         this.clickLogin();
 
 
-
     }
+
+
+    //click New Customer
+
+    public void clickNewCustomeBtn() {
+        driver.findElement(newCustomer).click();
+    }
+
+    //Create array list for Customer Name, Address, City, State
+
+    Webelement CustomerName = driver.findElement()
+
 
 }
