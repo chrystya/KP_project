@@ -1,5 +1,5 @@
 package training;
-public class Puppy {
+public class Puppy extends Animal {
 int puppyAge;
 
     public Puppy (String name){
@@ -14,13 +14,26 @@ int puppyAge;
         this.puppyAge = puppyAge;
     }
 
+    @Override
+    public void PrintAnimal(){
+        //super.PrintAnimal();
+        System.out.println(name + " doing usually " + voice);
+    }
+
     public static void main(String []args) {
 
         Puppy mypuppy = new Puppy("tommy");
         mypuppy.setPuppyAge(3);
         mypuppy.getPuppyAge();
 
+
         System.out.println("Variable value: "+mypuppy.puppyAge );
+
+
+        mypuppy.setName("tommy");
+        mypuppy.setVoice("Wooh");
+        mypuppy.PrintAnimal();
+
     }
 }
 

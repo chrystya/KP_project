@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/KP_project.iml" filepath="$PROJECT_DIR$/.idea/KP_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testng-maven.iml" filepath="$PROJECT_DIR$/testng-maven.iml" />
     </modules>
   </component>
 </project>
