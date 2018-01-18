@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="021f246e-9029-45e0-b991-27ad05bb6d0b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pages/Guru99pages.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/AbstractGuru.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/DataProviders.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/training/Abstract_Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/training/Animal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/training/Exceptions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/training/Loops.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pages/Guru99Login.class" afterPath="$PROJECT_DIR$/target/test-classes/pages/Guru99Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/test/Test99GuruLogin.class" afterPath="$PROJECT_DIR$/target/test-classes/test/Test99GuruLogin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/training/Employee.class" afterPath="$PROJECT_DIR$/target/test-classes/training/Employee.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/training/Puppy.class" afterPath="$PROJECT_DIR$/target/test-classes/training/Puppy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/training/RASteam.class" afterPath="$PROJECT_DIR$/target/test-classes/training/RASteam.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pages/Guru99Login.java" afterPath="$PROJECT_DIR$/src/test/java/pages/Guru99Login.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/test/Test99GuruLogin.java" afterPath="$PROJECT_DIR$/src/test/java/test/Test99GuruLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/training/Employee.java" afterPath="$PROJECT_DIR$/src/test/java/training/Employee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/training/Puppy.java" afterPath="$PROJECT_DIR$/src/test/java/training/Puppy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/training/RASteam.java" afterPath="$PROJECT_DIR$/src/test/java/training/RASteam.java" />
-    </list>
+    <list default="true" id="021f246e-9029-45e0-b991-27ad05bb6d0b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,8 +54,8 @@
       <file leaf-file-name="DataProviders.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/DataProviders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+            <state relative-caret-position="495">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1192,8 +1171,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/DataProviders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        <state relative-caret-position="495">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
